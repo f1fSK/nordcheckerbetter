@@ -120,8 +120,8 @@ def read_file(args) -> None:
 
             count += 1
 
-            if count > 1000:
-                print("Limit set to 1000 accounts")
+            if count > 3000:
+                print("Limit set to 3000 accounts")
                 sys.exit()
 
             templated_account = f"{B}{count}) Checking ➜ {W}{email}:{password}{E}"
